@@ -23,16 +23,10 @@ The app is deployed at [](). Challenge solution can be found below.
 Write a brief reflection (100-200 words) discussing:
 
 1. Challenges you encountered during the project.
-
-**
-
 2. Your approach to solving these challenges.
-
-**
-
 3. Improvements you would make if given more time.
 
-**
+*I went with Tailwind instead of Bootstrap for this. The main challenge here was changing my mindset from working with Bootstrap utility classes to using Tailwind utility classes. Also, since I didn't have access to the Figma design file, some of my spacing, sizing, and positioning isn't all the way there. My main approach to solving the problems was to read Tailwind documentation and watch tutorials. If I had more time, I'd fix some of the spacing and positioning: several of the cells are too tall, some have items aligned at the start and end instead of in the middle of the cell, and the entire grid is too high. I'd also like to try working with Tailwind in Node and compiling it myself so that only the utilities I need get compiled and used.*
 
 ## Attributions
 - Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Coded by [Karl Johnson](https://github.com/hirekarl).

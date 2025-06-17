@@ -1,13 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="author" content="Karl Johnson" />
+    <meta
+      name="description"
+      content="Karl Johnson's submission for PS 2025-RTT-30 SBA 3: Design and Development." />
+    <title>SBA 3: Bento Grid Challenge (Frontend Mentor)</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="container mx-auto p-5 max-w-screen-lg">
+      <div class="grid grid-cols-1 gap-2 lg:grid-cols-4 lg:grid-rows-5">
+        <div
+          class="row-start-1 md:col-span-4 lg:col-span-2 lg:row-span-2 lg:col-start-2 lg:row-start-1 rounded-lg bg-purple-500 flex flex-col gap-2 justify-center items-center text-center p-6">
+          <h1 class="text-white text-3xl lg:text-5xl">
+            Social Media
+            <span class="text-yellow-500">10x</span>
+            <em>Faster</em> with AI
+          </h1>
+          <img
+            src="./assets/images/illustration-five-stars.webp"
+            alt="Five yellow stars."
+            class="w-1/2" />
+          <p class="text-white text-sm">Over 4,000 5-star reviews</p>
+        </div>
+        <div
+          class="md:col-span-4 md:row-span-1 lg:row-span-2 lg:col-span-1 lg:col-start-2 lg:row-start-3 rounded-lg bg-white p-6">
+          <img
+            src="./assets/images/illustration-multiple-platforms.webp"
+            alt="Two social media pills, one for Instagram and the other for X." />
+          <h2 class="text-black text-2xl xlg:text-3xl pt-6">
+            Manage multiple accounts and platforms.
+          </h2>
+        </div>
+        <div
+          class="md:col-span-4 md:row-span-1 lg:col-span-1 lg:row-span-2 lg:col-start-3 lg:row-start-3 rounded-lg bg-yellow-500 pb-0 ga5 overflow-hidden pt-6 pl-6 pr-16 lg:pr-6">
+          <h2 class="text-black text-2xl xlg:text-3xl pr-6">
+            Maintain a consistent posting schedule.
+          </h2>
+          <img
+            src="./assets/images/illustration-consistent-schedule.webp"
+            alt="A small calendar."
+            class="relative pt-4 bottom-0 w-1/2 lg:w-full" />
+        </div>
+        <div
+          class="md:col-span-4 lg:row-span-3 lg:col-span-1 rounded-lg bg-yellow-100 p-6 flex gap-2 flex-col lg:pt-10">
+          <h2 class="text-black text-2xl xlg:text-3xl">
+            Create and schedule content
+            <i class="text-purple-500">quicker.</i>
+          </h2>
+          <img
+            src="./assets/images/illustration-create-post.webp"
+            alt="A yellow button that says Create Post." />
+        </div>
+        <div
+          class="md:col-span-4 md:row-span-1 lg:row-span-3 lg:col-start-1 lg:col-span-1 lg:row-start-4 rounded-lg bg-yellow-500 p-6 flex gap-2 flex-col">
+          <h2 class="text-black text-2xl xlg:text-3xl">
+            Write your content using AI.
+          </h2>
+          <img
+            src="./assets/images/illustration-ai-content.webp"
+            alt="A chat dialog between a user and an AI chatbot." />
+        </div>
+
+        <div
+          class="row-start-5 md:col-span-4 md:row-span-1 md:row-start-6 lg:row-span-2 lg:col-span-1 lg:col-start-2 lg:row-start-5 rounded-lg bg-white p-6 flex gap-2 flex-col">
+          <h2 class="text-black text-3xl">&gt;56%</h2>
+          <p>faster audience growth</p>
+          <img
+            src="./assets/images/illustration-audience-growth.webp"
+            class="pt-6 w-1/2"
+            alt="Three social media avatars in overlapping circles." />
+        </div>
+        <div
+          class="items-center justify-center row-start-4 md:col-span-4 md:row-span-1 lg:col-span-2 lg:row-span-2 lg:col-start-3 lg:row-start-5 rounded-lg bg-purple-500 flex gap-2 flex-col lg:flex-row p-6 md:py">
+          <img
+            src="./assets/images/illustration-grow-followers.webp"
+            alt="A bar chart depicting follower numbers going up."
+            class="w-1/2 max-h-full lg:max-w-[13rem]" />
+          <h2 class="text-white text-3xl lg:text-3xl text-center md:text-start">
+            Grow followers with non-stop content.
+          </h2>
+        </div>
+        <div
+          class="md:col-span-4 md:row-span-1 lg:row-span-4 lg:col-span-1 lg:col-start-4 lg:row-start-1 rounded-lg bg-purple-100 flex gap-2 flex-col p-6 overflow-hidden">
+          <h2 class="text-black text-2xl xlg:text-3xl">
+            Schedule to social media.
+          </h2>
+          <img
+            src="./assets/images/illustration-schedule-posts.webp"
+            class="my-2 lg:flex-1 lg:object-cover lg:object-left-top lg:max-w-[30ch]"
+            alt="A bar chart depicting best times to post." />
+          <p class="text-black">
+            Optimize post timings to publish content at the perfect time for
+            your audience.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
