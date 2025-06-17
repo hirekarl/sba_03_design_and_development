@@ -11,10 +11,10 @@
 In this assessment, you will take a Figma design from Frontend Mentor and implement it using Bootstrap. This project simulates a real-world task where you receive a design handoff and are expected to create a responsive, pixel-perfect webpage. You will apply your knowledge of Bootstrap’s grid system, components, and utility classes while utilizing version control through Git.
 
 ### Viewer Instructions
-The app is deployed at [](). Challenge solution can be found below.
+The app is deployed at [https://jovial-sundae-2c3d9f.netlify.app](https://jovial-sundae-2c3d9f.netlify.app/). Challenge solution can be found below.
 
 ### Solution
-1. [Challenge 1: Bento Grid]() ([source](./index.html))
+1. [Challenge 1: Bento Grid](https://jovial-sundae-2c3d9f.netlify.app/) ([source](./index.html))
 
 ### Challenge Instructions
 1. Required: [Bento Grid Challenge](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
