@@ -4,7 +4,7 @@
 2025-RTT-30  
 <datetime date="2025-06-16">2025-06-16</date>  
 
-![Project preview image goes here.]()
+![Preview of Karl Johnson's Bento Grid Challenge solution.](./preview.png)
 
 ## Overview
 ### Summary
@@ -14,7 +14,7 @@ In this assessment, you will take a Figma design from Frontend Mentor and implem
 The app is deployed at [](). Challenge solution can be found below.
 
 ### Solution
-1. [Challenge 1: Bento Grid]() ([source](./))
+1. [Challenge 1: Bento Grid]() ([source](./index.html))
 
 ### Challenge Instructions
 1. Required: [Bento Grid Challenge](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
